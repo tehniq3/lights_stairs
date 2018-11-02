@@ -69,15 +69,3 @@ void inapoi()  // backward
     digitalWrite(thisPin, LOW);
   } 
 }
-
-void slab()
-{
-  // loop from the highest pin to the lowest:
-  for (int thisPin = 16; thisPin >= 1; thisPin--) {
-    // turn the pin on:
-    digitalWrite(thisPin, HIGH);
-    delay(1);
-    // turn the pin off:
-    digitalWrite(thisPin, LOW);
-  } 
-}
