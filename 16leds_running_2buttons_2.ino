@@ -19,7 +19,7 @@ void setup() {
   digitalWrite(senzor2, HIGH); 
   
   // use a for loop to initialize each pin as an output:
-  for (int thisPin = 1; thisPin <= 16; thisPin++) {
+  for (int thisPin = 2; thisPin <= 17; thisPin++) {
     pinMode(thisPin, OUTPUT);
   }
 }
@@ -35,7 +35,7 @@ if (digitalRead(senzor2) == LOW)
 }
 byte j = 100;
 
- for (int thisPin = 16; thisPin >= 1; thisPin--) {
+ for (int thisPin = 17; thisPin >= 2; thisPin--) {
     // turn the pin on:
     digitalWrite(thisPin, HIGH);
     delayMicroseconds(1);
@@ -49,7 +49,7 @@ byte j = 100;
 void inainte()  // forward
 {
    // loop from the lowest pin to the highest:
-  for (int thisPin = 1; thisPin <= 16; thisPin++) {
+  for (int thisPin = 2; thisPin <= 17; thisPin++) {
     // turn the pin on:
     digitalWrite(thisPin, HIGH);
     delay(timer);
@@ -61,7 +61,7 @@ void inainte()  // forward
 void inapoi()  // backward
 {
   // loop from the highest pin to the lowest:
-  for (int thisPin = 16; thisPin >= 1; thisPin--) {
+  for (int thisPin = 17; thisPin >= 2; thisPin--) {
     // turn the pin on:
     digitalWrite(thisPin, HIGH);
     delay(timer);
