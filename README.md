@@ -10,3 +10,5 @@ info:
 ![montaj](https://3.bp.blogspot.com/-oPKjaeMPbD0/W9yBdPK4fTI/AAAAAAAAX-4/GppNocknppYABeJj7sIPQPj3rsw8e4w1wCLcBGAs/s1600/4.jpg)
 
 ![ideea](https://1.bp.blogspot.com/-lcKLZOIq8Pw/X9iNt3feScI/AAAAAAAAdjA/5MIgXBqWCWAoeXFecFpAPe8xLWLvwwGogCLcBGAsYHQ/s413/scara.png)
+
+![schema](https://1.bp.blogspot.com/-tLCoxw_AMCM/X8tU7NX6LnI/AAAAAAAAdhI/1JlVeXSubH8fsw68nWprRME2RONikslXgCLcBGAsYHQ/s1680/17leds_schematic2.png)
